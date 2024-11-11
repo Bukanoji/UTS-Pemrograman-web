@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body class="bg-light text-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link text-secondary" href="index.html">Home</a>
+                    <a class="nav-link text-secondary" href="about.html">About</a>
+                    <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container my-5">
+        <div class="text-center">
+            <h1 class="display-4 font-weight-bold">Welcome to My Portfolio</h1>
+            <p class="lead text-muted">Project-Project terdahulu</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="D:\uts\web lanjut\proyek\Proyek1.html" class="card text-decoration-none">
+                    <div class="card shadow-sm">
+                        <img alt="Cyber Security" class="card-img-top" src="D:\uts\web lanjut\proyek\cyber security.jpg"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Project Cyber Security</h5>
+                            <p class="card-text">pengalaman dalam keamanan siber, khususnya dalam melakukan pengujian penetrasi (pentesting) untuk berbagai aplikasi dan infrastruktur.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="D:\uts\web lanjut\proyek\Proyek2.html" class="card text-decoration-none">
+                    <div class="card shadow-sm">
+                        <img alt="Cloud Computing" class="card-img-top" src="D:\uts\web lanjut\proyek\cloudcom.jpg"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Project Cloud Computing</h5>
+                            <p class="card-text">Proyek ini bertujuan untuk menyediakan solusi cloud computing yang efisien dan skalabel untuk bisnis dan individu.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="D:\uts\web lanjut\proyek\Proyek3.html" class="card text-decoration-none">
+                    <div class="card shadow-sm">
+                        <img alt="webscrap" class="card-img-top" src="D:\uts\web lanjut\proyek\webscrap.webp"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Project Web Scrapping</h5>
+                            <p class="card-text">Proyek ini bertujuan untuk mengumpulkan data dari berbagai sumber web secara otomatis dan efisien.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <style>
+        .card {
+            transition: transform 0.2s; 
+        }
+        
+        .card:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+        </style>
+    
+    <div class="container my-5">
+        <div class=" text-center">
+            <h1 class="display-4 font-weight-bold">About Me</h1>
+            <p class="lead text-muted">Learn more about my background and skills</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img alt="Fauji" class="img-fluid rounded-lg shadow-sm" src="D:\uts\web lanjut\21_83_0612.jpg"/>
+            </div>
+            <div class="col-md-6">
+                <h2 class="font-weight-bold">My Background</h2>
+                <p class="text-muted">I am a passionate developer with experience in various technologies. I love creating innovative solutions and working on challenging projects.</p>
+                <h2 class="font-weight-bold">Skills</h2>
+                <ul class="list-unstyled">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Vue.js</li>
+                    <li>Node.js, Express</li>
+                    <li>Python, Django</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="text-center">
+            <h1 class="display-4 font-weight-bold">Contact Me</h1>
+            <p class="lead text-muted">Get in touch for any queries or collaborations</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" id="name" placeholder="Your Name" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" id="email" placeholder="name@example.com" type="email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="4"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2 class="font-weight-bold">Kontak</h2>
+                <p class="text-muted">Bisa dihubungi lewat social media dibawah:</p>
+                <p class="text-muted"><i class="fas fa-envelope mr-2"></i> Fauji@students.amikom.ac.id</p>
+                <p class="text-muted"><i class="fas fa-phone mr-2"></i> 080808080808</p>
+                <p class="text-muted"><i class="fas fa-map-marker-alt mr-2"></i> amikom concat</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p class="text-muted">© 2023 MyPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
